@@ -43,8 +43,8 @@ int main(void)
 	char *str;
 
 	str = "school";
-	a = _printf("%r\n", "Hello"); /*expected: olleH*/
-	printf("--->%d\n", a); /*expected: 6*/
+	a = _printf("%r\n", "Holberton"); /*expected: notrebloh*/
+	printf("--->%d\n", a); /*expected: 10*/
 
 	b = _printf("%r\n", str); /*expected: loohcs*/
 	printf("%d\n", b); /*expected: 7*/
